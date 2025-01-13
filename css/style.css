@@ -188,9 +188,6 @@ span{
 .projeto-container{
     display: grid;
     gap: 1.2rem;
-    /* width: 100%;
-    justify-content: center;
-    align-items: center; */
 }
 .projeto-box{
     display: flex;
@@ -198,12 +195,6 @@ span{
     border-radius: 0.6rem;
     box-shadow: 0 0 0.6rem black;
     overflow: hidden;
-    
-    /* width: 50%;
-    height: 15rem; */
-    /* border-bottom: 1rem; */
-    /* justify-content: space-between;
-    align-content: space-between; */
 }
 .projeto-box img { 
     width: 100%;
@@ -229,7 +220,7 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(transparent, rgb(172, 80, 30));
+    background: linear-gradient(transparent, black);
 }
 .projeto-box:hover .projeto-layer{
     transform: translateY(0);
@@ -241,7 +232,7 @@ span{
     margin: 0.2rem 0 0.5rem;
 }
 .projeto-layer a{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 3rem;
