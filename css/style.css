@@ -348,6 +348,25 @@ footer{
     .skills-box{
         width: 100%;
     }
+    
+    .projetos{
+        display: grid;
+    }
+
+    .projeto-box .projeto-layer p{
+        font-size: 0;
+    }
+    .curriculo{
+        display: flex;
+        padding-top: 1px;
+        margin-top: 1px;
+        padding-bottom: 1px;
+    }
+    .curriculo-box img{
+        width: 100%;
+        height: 50% ;
+        filter: none;
+    }
 }
 
 /* Small (sm): smartphone (landscape) */
