@@ -198,6 +198,7 @@ span{
     display: flex;
     justify-content: center;
     align-content:center;
+    backdrop-filter: blur(3px);
 }
 .projeto-box img:hover{
     transform: scale(1.1);
@@ -217,7 +218,6 @@ span{
     width: 100%;
     height: 100%;
     background: linear-gradient(transparent, var(--color-primary-01));
-    backdrop-filter: blur(3px);
 }
 .projeto-box:hover .projeto-layer{
     transform: translateY(0);
@@ -379,6 +379,11 @@ footer{
     .skills-box{
         width: 70%;
     }
+    .curriculo-box img{
+        width: 70%;
+        height: 50% ;
+        filter: none;
+    }
 }
 
 /* Medium (m): tablet */
@@ -413,6 +418,16 @@ footer{
     .projeto-container{
         grid-template-columns: auto;
     }
+    .projetos{
+        display: flexbox;
+    }
+
+    .projeto-box .projeto-layer p{
+        font-size: 1.4rem;
+    }
+    .projeto-box .projeto-layer{
+        backdrop-filter: none;
+    }
 }
 
 /* Large (lg): notebook */
@@ -420,6 +435,9 @@ footer{
     .skills-container{
         flex-direction: row;
         gap: 1.2rem;
+    }
+    .projeto-box img{
+        backdrop-filter: blur(1px);
     }
 }
 
