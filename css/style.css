@@ -357,15 +357,15 @@ footer{
         font-size: 0;
     }
     .curriculo{
-        display: flex;
+        /* display: flex; */
         padding-top: 1px;
         margin-top: 1px;
         padding-bottom: 1px;
     }
     .curriculo-box img{
-        width: 100%;
+        width: 70%;
         height: 50% ;
-        filter: none;
+        /* filter: none; */
     }
 }
 
@@ -380,9 +380,9 @@ footer{
         width: 70%;
     }
     .curriculo-box img{
-        width: 70%;
-        height: 50% ;
-        filter: none;
+        width: 60%;
+        height: 80% ;
+        /* filter: none; */
     }
 }
 
@@ -428,6 +428,12 @@ footer{
     .projeto-box .projeto-layer{
         backdrop-filter: none;
     }
+    /* .curriculo-box img{
+        border-radius: 1rem 1rem 1rem 1rem;
+        align-items: center;
+        width: 50%;
+        height: 50% ;
+    } */
 }
 
 /* Large (lg): notebook */
