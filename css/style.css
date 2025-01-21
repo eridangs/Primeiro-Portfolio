@@ -256,7 +256,6 @@ span{
     border-radius: 1rem 1rem 1rem 1rem;
     width: 50%;
     height: 50% ;
-    filter: blur(0.1rem);
 }
 .curriculo-box img:hover{
     border: solid 0.2rem var(--color-primary-04);
@@ -465,5 +464,11 @@ footer{
     }
     .skills-box p{
         font-size: 1.3rem;
+    }
+    .projeto-box .projeto-layer p{
+        font-size: 3rem;
+    }
+    .footer{
+        font-size: 2rem;
     }
 }
